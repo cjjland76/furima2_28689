@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @item.name %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @item.product %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @item.category %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @item.status %>
+</p>
+
+<p>
+  <strong>Delivery fee:</strong>
+  <%= @item.delivery_fee %>
+</p>
+
+<p>
+  <strong>Delivery area:</strong>
+  <%= @item.delivery_area %>
+</p>
+
+<p>
+  <strong>Delivery day:</strong>
+  <%= @item.delivery_day %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @item.price %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @item.user_id %>
+</p>
+
+<p>
+  <strong>View count:</strong>
+  <%= @item.view_count %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
